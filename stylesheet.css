@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  html {
+    background-color: #f4f4f4;
+  }
+
+  body {
+    font-size: 18px;
+    color: #312301;
+  }
+  
+  header {
+    background-image: url('./images/logo.png');
+    background-color: #312301;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 200px;
+  }
+  
+  nav#navtop {
+    background-color: #97b75d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin-bottom: 10px;
+  }
+  
+  nav#navtop a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  nav#navtop a:hover {
+    background-color: #6c4b38;
+  }
+  
+  section, div {
+    text-align: center;
+    padding: 40px;
+  }
+  
+
+  #accueil a, #contact a {
+    color: #97b75d;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  #accueil a:hover, #contact a:hover {
+    color: #6c4b38;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #a9b988;
+  }
+  
+  .avant-gout {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .photo1 img, .photo2 img, .photo3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .photo1 p, .photo2 p, .photo3 p {
+    font-size: 14px;
+  }
+  
+  .photo1:hover, .photo2:hover, .photo3:hover, .galerie img:hover {
+    transform: translateY(-5px);
+  }
+  
+  .voir-plus, #devis a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #97b75d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .voir-plus:hover, #devis a:hover {
+    background-color: #6c4b38;
+  }
+   
+  #devis p strong, #services strong, #realisations strong, #contrats strong, #accueil strong {
+    color: #855a3e;
+  }
+  
+  footer {
+    background-color: #312301;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 5px solid #97b75d;
+  }
+  
+  #services article {
+    margin-bottom: 50px;
+  }
+  
+  #services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  #services ul li {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin-top: 40px;
+    text-align: left;
+  }
+  
+  #services ul li h4 {
+    color: #6c4b38;
+    margin-bottom: 20px;
+  }
+  
+  
+  #services article h3 + p, #realisations h3 + p, #contrats h3 + p {
+    margin: auto;
+    max-width: 800px;
+  }
+  
+  .galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .galerie img {
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    image-rendering: auto;
+  }
+  
+  .formules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .formule {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 300px;
+    max-width: 350px;
+    min-height: 420px;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 10px;
+  }
+  
+  .formule h4 {
+    font-size: 22px;
+  }
+    
+  .formule ul {
+    list-style: none;
+  }
+  
+  .formule li {
+    text-align:center;
+  }
+  
+  .formule a {
+    display: block;
+    padding: 10px ;
+    background-color: #97b75d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  .formule a:hover {
+    background-color: #6c4b38;
+  }
+  
+  .gold h4 {
+    color: goldenrod;
+  }
+  
+  .diamond h4 {
+    color: deepskyblue;
+  }
+  
+  .platinum h4 {
+    color: darkgray;
+  }
+  
+  .gold {
+    background-color: rgba(218, 165, 32, 0.2);
+  }
+  
+  .diamond {
+    background-color: rgba(30, 144, 255, 0.1);
+  }
+  
+  .platinum {
+    background-color: rgba(169, 169, 169, 0.2);
+  }
+  
+  #Informations h4 {
+    color: #6c4b38;
+  }
+  
+  #Informations p {
+    margin-bottom: 20px;
+  }
+  
+  #contact {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+    
+  @media (min-width: 1920px) {
+    body{
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 1280px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .formules {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .avant-gout {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .photo1, .photo2, .photo3 {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    nav#navtop {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 15px;
+    }
+  
+
+    .formule {
+      padding: 20px 10px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .voir-plus {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  }
+  
